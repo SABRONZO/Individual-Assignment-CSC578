@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Python Basics Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav id="navbar">
+    <header>Python Documentation</header>
+    
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#Variables_and_Types">Variables and Types</a>
+    <a class="nav-link" href="#Control_Flow">Control Flow</a>
+    <a class="nav-link" href="#Functions_in_Python">Functions in Python</a>
+    <a class="nav-link" href="#List_Operations">List Operations</a>
+  </nav>
+
+  <main id="main-doc">
+    
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>Python is a high-level, interpreted programming language known for its readability and elegant syntax. It allows developers to express concepts in fewer lines of code than languages like C++ or Java.</p>
+      <p>Whether you are new to programming or an experienced engineer, Python is an excellent tool to have in your stack due to its vast ecosystem in machine learning, data science, and web development.</p>
+      <code>print("Hello, World!")</code>
+    </section>
+
+    <section class="main-section" id="Variables_and_Types">
+      <header>Variables and Types</header>
+      <p>Unlike strongly-typed languages, Python does not require you to declare variables before using them, or specify their type. The type is determined automatically at runtime.</p>
+      <p>Standard data types include integers, floats, strings, and booleans. Variables are assigned using the single assignment operator.</p>
+      <code>x = 42 # Integer</code>
+      <code>name = "Alice" # String</code>
+    </section>
+
+    <section class="main-section" id="Control_Flow">
+      <header>Control Flow</header>
+      <p>Python uses standard conditional statements like <code>if</code>, <code>elif</code>, and <code>else</code> to control the flow of execution based on specific evaluations.</p>
+      <p>Instead of curly braces <code>{}</code>, Python relies heavily on indentation to define blocks of code. Misaligned spaces will result in an IndentationError.</p>
+      <code>if x > 10:\n    print("Large")</code>
+    </section>
+
+    <section class="main-section" id="Functions_in_Python">
+      <header>Functions in Python</header>
+      <p>Functions are blocks of organized, reusable code that perform a single, related action. They provide better modularity for your software system application.</p>
+      <p>You define a function using the keyword <code>def</code> followed by the function name and parentheses containing any inputs.</p>
+      <code>def greet(user):\n    return f"Hello, {user}"</code>
+    </section>
+
+    <section class="main-section" id="List_Operations">
+      <header>List Operations</header>
+      <p>Lists are one of Python's 4 built-in data types used to store collections of data. Lists are mutable, meaning their values can be altered after initialization.</p>
+      <p>Here are some of the common array methods you can perform when working with structured python lists:</p>
+      <ul>
+        <li><strong>append()</strong> - Adds an element at the end of the list</li>
+        <li><strong>clear()</strong> - Removes all elements from the list</li>
+        <li><strong>copy()</strong> - Returns a structural copy of the list</li>
+        <li><strong>pop()</strong> - Removes the element at the specified position</li>
+        <li><strong>reverse()</strong> - Reverses the sorting order of the list</li>
+      </ul>
+    </section>
+
+  </main>
+
+</body>
+</html>
