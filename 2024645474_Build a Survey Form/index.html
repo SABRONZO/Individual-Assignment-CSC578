@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gunpla Survey Form</title>
+</head>
+<body>
+  <h1 id="title">Gunpla Survey Form</h1>
+  <p id="description">We’d love to hear your thoughts about Gunpla building, customization, and events. Please fill out this short survey to share your experience.</p>
+
+  <form id="survey-form">
+    <label id="name-label" for="name">Your Name:</label>
+    <input 
+      id="name" 
+      type="text" 
+      placeholder="Enter your full name" 
+      required>
+
+    <label id="email-label" for="email">Your Email:</label>
+    <input 
+      id="email" 
+      type="email" 
+      placeholder="Enter your email address" 
+      required>
+    
+    <label id="number-label" for="number">Years of Gunpla Experience:</label>
+    <input 
+      id="number" 
+      type="number" 
+      min="0" 
+      max="50" 
+      placeholder="Enter a number" 
+      required>
+
+    <label for="dropdown">Favorite Gunpla Grade:</label>
+    <select id="dropdown">
+      <option value="hg">High Grade (HG)</option>
+      <option value="mg">Master Grade (MG)</option>
+      <option value="pg">Perfect Grade (PG)</option>
+    </select>
+    
+    <p>Do you prefer building or customizing?</p>
+    <label>
+      <input type="radio" name="preference" value="building"> Building
+    </label>
+    <label>
+      <input type="radio" name="preference" value="customizing"> Customizing
+    </label>
+    
+    <p>Which aspects of Gunpla do you enjoy? (Select all that apply)</p>
+    <label>
+      <input type="checkbox" value="assembly"> Assembly
+    </label>
+    <label>
+      <input type="checkbox" value="painting"> Painting
+    </label>
+    <label>
+      <input type="checkbox" value="collecting"> Collecting
+    </label>
+
+    <label for="comments">Additional Comments:</label>
+    <textarea id="comments" placeholder="Share your thoughts here..."></textarea>
+
+    <button id="submit" type="submit">Submit Survey</button>
+  </form>
+</body>
+</html>
